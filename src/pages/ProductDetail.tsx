@@ -32,7 +32,7 @@ const product: Product = {
 export const ProductDetail = () => {
   const { id } = useParams();
   const [selectedImage, setSelectedImage] = useState(0);
-
+  console.log('Product ID:', id);
   return (
     <div className="bg-white">
       <div className="container mx-auto px-4 py-8 pt-32">
